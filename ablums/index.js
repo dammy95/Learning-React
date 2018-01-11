@@ -8,7 +8,8 @@ import Header from './src/components/header';
 // Create a component
 const App = () => {
   return (
-    <View>
+    // Whenever you have a ScrollView, must add style property of flex:1 to root view element
+    <View style={{ flex: 1 }}>
       <Header headerText={'Ablums!!'}/> 
       <AlbumList />
     </View>
