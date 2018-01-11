@@ -21,6 +21,7 @@ class AlbumList extends Component {
   render() {
     console.log(this.state);
     return (
+      // TODO: Replace ScrollView with FlatList
       <ScrollView>
         {this.renderAlbums()}        
       </ScrollView>
